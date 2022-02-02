@@ -1,10 +1,10 @@
 <!-- prettier-ignore-start -->
 # Tests frontend
 
-## Pourquoi écrire des tests
+
+## Pourquoi écrire des tests ?
 
 Note:
-
 - Parce que c'est une "bonne pratique"
 - Parce que mon manager/lead dev me le demande
 - Parce que je suis objectivé sur le taux de couverture
@@ -17,21 +17,19 @@ Note:
 
 L'écriture d'un test est un investissement, il doit avoir un ROI.
 
-<img src="./test-pyramid.png" />
+<img class="r-stretch" src="data/img/test-pyramid.png" />
 
 
 ### ROI des différents types de tests
 
-<img src="./testing-trophy.jpg" />
+<img class="r-stretch" src="data/img/testing-trophy.jpg" />
 
 
 ### ROI des différents types de tests
 
-<img src="./confidence-coefficient.webp" />
-
+<img class="r-stretch" src="data/img/confidence-coefficient.webp" />
 
 Note:
-
 - Vers le haut du graphe plus de coûts et tests plus lents
 - On capte des petits problèmes en bas et des problèmes complexes en haut
 
@@ -72,6 +70,7 @@ Note:
 - Tests de non-régression visuelle
 - Monitoring de parcours en production
 
+
 ### Alors on fait quoi ?
 
 - On combine les différents modes de test
@@ -85,6 +84,7 @@ Note:
 - Unitaires: Jest
 - Integration: Jest + *-testing-library
 - E2E: Cypress
+
 
 ### Des tests frontend plus efficace
 
