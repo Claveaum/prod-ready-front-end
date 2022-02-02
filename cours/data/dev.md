@@ -2,6 +2,48 @@
 # Dev & Front-end
 
 
+## Création du livrable
+
+
+## À quoi sert un bundler ?
+<img class="r-stretch" src="data/img/schemaBundler.png">
+
+
+## Bundler
+<img class="r-stretch" src="data/img/logoWebpack.svg">
+<p>Webpack</p>
+
+
+## Bundler
+<img class="r-stretch" src="data/img/logoRollup.svg">
+<p>Rollup</p>
+
+
+## Bundler
+<img class="r-stretch" src="data/img/logoParcel.png">
+<p>Parcel</p>
+
+
+## Autres étapes appliquée lors de la création du Bundle
+<img class="r-stretch" src="data/img/logoBabel.svg">
+
+
+## Autres étapes appliquée lors de la création du Bundle
+<img class="r-stretch" src="data/img/minify.jpeg">
+
+
+## Configuration d'un application sur différents environnement
+
+- dev, recette, prod
+
+
+## Outils de qualité
+
+- eslint, sonar, prettier ...
+- couverture de test
+- Outils d'aides ou outils de contrôle ?
+
+
 ## Design system
 
 - Description
@@ -46,23 +88,5 @@
 - Documentation technique : jsdoc, typescript ?
 - Changelog
 
-
-## Création du livrable
-
-- webpack, parcel, rollup ...
-- babel, polyfill
-- CI
-
-
-## Configuration d'un application sur différents environnement
-
-- dev, recette, prod
-
-
-## Outils de qualité
-
-- eslint, sonar, prettier ...
-- couverture de test
-- Outils d'aides ou outils de contrôle ?
 
 <!-- prettier-ignore-end -->
