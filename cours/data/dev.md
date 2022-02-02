@@ -32,21 +32,36 @@
 <img class="r-stretch" src="data/img/minify.jpeg">
 
 
-## Configuration d'un application sur différents environnement
+## Et sur différents environnements ?
+<ul>
+  <li> Utilisation de variables d'environnements</li>
+  <li> Fichiers de configurations</li>
+</ul>
 
-- dev, recette, prod
+
+## Et sur différents environnements ?
+<img class="r-stretch" src="data/img/dotenv.png">
 
 
 ## Outils de qualité
+<img class="r-stretch" src="data/img/logoPrettier.png">
+<p>Formattage de code automatique</p>
 
-- eslint, sonar, prettier ...
-- couverture de test
-- Outils d'aides ou outils de contrôle ?
+
+## Outils de qualité
+<img class="r-stretch" src="data/img/logoEslint.svg">
+<p>Linter</p>
+
+
+## Outils de qualité
+<img class="r-stretch" src="data/img/logoSonar.svg">
+<p>Quality gate</p>
 
 
 ## Design system
+<img class="r-stretch" src="data/img/designSystem.png">
 
-- Description
+Note:
 - Utilité d'un design system dans un contexte d'entreprise
   - Uniformité des interfaces
   - Fédérer les acteurs (UI/UX/DEV/Métier)
@@ -55,8 +70,10 @@
 - Définir la granularité
 
 
-## Mutualisation des composants techniques
+## Implémentation de la bibliothèque de composants
+<img class="r-stretch" src="data/img/buildDesignSystem.jpeg">
 
+Note:
 - Concrétisation d'un design system (lib de composants graphiques)
 - Besoin de mutualisation de fonctionnalités métier
   - éviter les bugs par différences de compréhension d'un même domaine (ex: regex de validation d'email)
@@ -68,7 +85,9 @@
 
 
 ## Accessibilité
+<img class="r-stretch" src="data/img/accessibilite.jpeg">
 
+Note:
 - Normes: RGAA et WAI-ARIA
 - Pourquoi c'est nécessaire de prendre en compte
   - Exclusions de certains utilisateurs
