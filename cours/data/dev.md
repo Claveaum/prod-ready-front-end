@@ -176,18 +176,21 @@ Sur ppt.
 - [Liste de ressources](https://github.com/brunopulis/awesome-a11y)
 
 
-## Maintenance d'une application dans le temps
+## Maintenir une application dans le temps
+<img class="r-stretch" src="data/img/maintainability.jpeg">
 
+Note:
 - Stratégie pour maintenir à jour sa base de code et ses dépendances
 - Stratégie de sécurité : dependabot
 - Décommissioner > désactiver
 
 
 ## Gestion de la documentation
+<img class="r-stretch" src="data/img/documentation.jpeg">
 
+Note:
 - Spécification versionnée avec la base de code
 - Documentation technique : jsdoc, typescript ?
 - Changelog
-
 
 <!-- prettier-ignore-end -->
