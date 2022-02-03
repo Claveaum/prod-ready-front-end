@@ -34,8 +34,8 @@
 
 ## Et sur différents environnements ?
 <ul>
-  <li> Utilisation de variables d'environnements</li>
-  <li> Fichiers de configurations</li>
+  <li>Utilisation de variables d'environnements</li>
+  <li>Fichiers de configurations</li>
 </ul>
 
 
@@ -85,13 +85,95 @@ Note:
 
 
 ## Accessibilité
+
 <img class="r-stretch" src="data/img/accessibilite.jpeg">
 
-Note:
-- Normes: RGAA et WAI-ARIA
-- Pourquoi c'est nécessaire de prendre en compte
-  - Exclusions de certains utilisateurs
-  - Obligations légales
+
+### Définition
+
+Faire en sorte que nos applications soient utilisables par **tout le monde**
+
+
+### Applications inclusives pour qui ?
+
+- Utilisateurs avec des technologies d'assistance (lecteurs d'écran, loupes...)
+- Utilisateurs avec des handicaps (déficiences, incapacités, désavantages)
+
+
+### La notion de handicap dépend du contexte
+
+Ce n'est pas une caractéristique personnelle
+
+C'est un phénomène complexe, qui reflète les interactions entre une personne et la société qui l'entoure
+
+
+### Les déficiences peuvent être invisibles
+
+Par exemple:
+- Troubles dys
+- Daltonisme
+
+
+### Le handicap est situationnel
+
+Exemples:
+
+- Blessures
+- Environnement lumineux ou bruyant
+- Déphasage culturel (langue, âge...)
+- Bébé dans les bras
+
+
+### Exemple de déphasage culturel
+
+<img class="r-stretch" src="data/img/Floppydisk.webp" />
+
+
+### Le handicap crée l'exclusion
+
+L'exclusion apparaît quand les interactions sont incompatibles
+
+C'est notre responsabilité de comprendre comment nos outils peuvent créer des difficultés d'interaction
+
+
+### Une autre bonne raison
+
+C'est une obligation légale depuis 2005 pour:
+- Services publics
+- Entreprises privées délégataires de missions de service public
+- Entreprises privées avec CA > 250 millions €
+
+
+### Normes
+
+- WAI-ARIA (W3C)
+- RGAA (gouvernement FR)
+
+
+### De la conception à la réalisation
+
+- Wording
+    - Éviter le vocabulaire jargonneux
+- Design
+    - Couleurs contrastées
+    - L'information ne doit pas passer uniquement par la couleur
+    - Tailles et marges suffisants
+
+
+### Le modèle de rôles HTML
+
+Sur ppt.
+
+
+### Documents utiles
+
+- [WAI-ARIA authoring practises](https://www.w3.org/TR/wai-aria-practices/#intro)
+- [WAI-ARIA](https://www.w3.org/TR/wai-aria-1.1/)
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
+- [Microsoft Inclusive Design](https://www.microsoft.com/design/inclusive)
+- [Microsoft Accessibility Insights](https://accessibilityinsights.io/info-examples/web/aria-roles/)
+- [RGAA (FR)](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/)
+- [Liste de ressources](https://github.com/brunopulis/awesome-a11y)
 
 
 ## Maintenance d'une application dans le temps
