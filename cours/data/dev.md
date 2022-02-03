@@ -126,7 +126,7 @@ Exemples:
 
 ### Exemple de déphasage culturel
 
-<img class="r-stretch" src="data/img/Floppydisk.webp" />
+<img class="r-stretch" src="data/img/floppyDisk.jpeg" />
 
 
 ### Le handicap crée l'exclusion
