@@ -47,6 +47,7 @@ Le but de ce TP est d'écrire des tests d'intégration au niveau de l'applicatio
 
 1. Lancer la commander `npm test --watch` dans la console pour lancer les tests. Le paramètre watch permet de relancer les tests à chaque fichier modifié.
 1. Dans le fichier `App.spec.js`, compléter les différents tests.
+1. Générer le rapport de couverture de tests avec la commande `npm test --coverage`. Ouvrir dans le navigateur le fichier généré `./coverage/lcov-report/index.html`.
 
 Pour toutes les sélections, privilégier les requêtes par rôle.
 
