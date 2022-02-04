@@ -3,13 +3,27 @@
 
 
 ## Briques techniques à connaître
-- Serveur Http
-- Load-balancer
-- Reverse-proxy
-- WAF
-- Gateway : Otoroshi
-- CDN
 
+
+### Serveur Http
+
+- Implémente le protocole HTTP
+- 
+
+
+### Load-balancer
+
+
+### Reverse-proxy
+
+
+### Gateway
+
+
+### CDN
+
+
+### WAF
 
 ## Front-end & Cloud
 - Transition vers le cloud
