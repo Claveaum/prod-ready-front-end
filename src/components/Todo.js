@@ -33,7 +33,7 @@ const Todo = (props) => {
           id={props.id}
           className="todo-text"
           type="text"
-          value={newName || props.name}
+          value={newName ?? props.name}
           onChange={handleChange}
           ref={editFieldRef}
         />
