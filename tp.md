@@ -52,13 +52,11 @@ Pour toutes les sélections, privilégier les requêtes par rôle.
 
 Tips:
 
-- Pour sélectionner un noeud à partir de son rôle
+- Pour sélectionner un noeud à partir de son rôle (où "button" est le **rôle** du composant et `name` le nom accessible du composant).
 
 ```js
 screen.getByRole("button", { name: "Nom du bouton" });
 ```
-
-Où "button" est le **rôle** du composant et `name` le nom accessible du composant.
 
 - Pour connaître les différents rôles disponibles dans un composant rendu, utiliser [logRoles](https://testing-library.com/docs/dom-testing-library/api-accessibility/#logroles)
 
