@@ -6,24 +6,62 @@
 
 
 ### Serveur Http
+<img class="r-stretch" src="data/img/serveurHttp.png" />
 
-- Implémente le protocole HTTP
-- 
-
-
-### Load-balancer
+Note:
+Quelques exemples :
+- Apache httpd
+- Back-end for front-end
 
 
 ### Reverse-proxy
+<img class="r-stretch" src="data/img/reverse-proxy-flow.svg" />
 
 
-### Gateway
+### Reverse-proxy
+- Sécurité :
+    - Seul point d'entrée / sortie du traffic
+    - Encrypte / décrypte
+- Performance :
+    - Mise en cache
+    - Compression
+
+
+### Load-balancer
+<img class="r-stretch" src="data/img/loadBalancer.webp" />
+
+
+### Load-balancer
+- Positionné devant des serveurs assurant la même fonctionnalité
+- Distribue le traffic en fonction de la charge
+- Persistence de session
+- Health-check des différents serveur
+
+
+### Reverse-proxy vs Load-balancer ?
+
+Note:
+https://www.nginx.com/resources/glossary/reverse-proxy-vs-load-balancer/
+
+
+### API Gateway
+- Reverse-proxy + d'autres fonctionnalités liés aux API
+    - Orchestration de services
+    - Pattern de resillience : Circuit Breaker, Retry ...
+    - Authentification
+    - Observabilité
+    - Gestion du traffic
+Note:
+https://github.com/Kong/kong
 
 
 ### CDN
+<img class="r-stretch" src="data/img/CDN.png" />
 
 
-### WAF
+### WAF : Web Application Firewall
+<img class="r-stretch" src="data/img/firewall.png" />
+
 
 ## Front-end & Cloud
 - Transition vers le cloud
@@ -57,7 +95,7 @@
 - Intérêt
 
 
-## Feature flipping : Izanami
+## Feature flipping
 - Intérêt
 - Limites: ne pas oublier de décommissionner 
 
