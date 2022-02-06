@@ -21,7 +21,7 @@ Quelques exemples :
 ### Reverse-proxy
 - Sécurité :
     - Seul point d'entrée / sortie du traffic
-    - Encrypte / décrypte
+    - Chiffre / Déchiffre
 - Performance :
     - Mise en cache
     - Compression
