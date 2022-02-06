@@ -35,7 +35,7 @@ Quelques exemples :
 - Positionné devant des serveurs assurant la même fonctionnalité
 - Distribue le traffic en fonction de la charge
 - Persistence de session
-- Health-check des différents serveur
+- Health-check des différents serveurs
 
 
 ### Reverse-proxy vs Load-balancer ?
@@ -47,7 +47,7 @@ https://www.nginx.com/resources/glossary/reverse-proxy-vs-load-balancer/
 ### API Gateway
 - Reverse-proxy + d'autres fonctionnalités liés aux API
     - Orchestration de services
-    - Pattern de resillience : Circuit Breaker, Retry ...
+    - Pattern de résilience : Circuit Breaker, Retry ...
     - Authentification
     - Observabilité
     - Gestion du traffic
