@@ -53,6 +53,7 @@ https://www.nginx.com/resources/glossary/reverse-proxy-vs-load-balancer/
     - Gestion du traffic
 Note:
 https://github.com/Kong/kong
+https://maif.github.io/otoroshi/
 
 
 ### CDN
@@ -64,39 +65,40 @@ https://github.com/Kong/kong
 
 
 ## Front-end & Cloud
-- Transition vers le cloud
-    - Trouver le bon cloud IASS,PASS,SASS ..
-- Cohabitation Cloud et On premise
-- Intérêt ?
+<img class="r-stretch" src="data/img/cloudServicesTypes.png" />
 
 
-## Mise en cache des ressources statiques / CDN
-- Principe
-- Intérêt -> performance
+## En quoi le cloud impact mon application front-end ?
+
+Note:
+- Cohabitation Cloud et On premise parfois difficile
 
 
-## Monitoring
-- Alerting : Dynatrace, Grafana, Sentry
-- Amélioration continue
-- Performance: Lighthouse ...
+## Observabilité et peformance
+- Produits : Dynatrace, Elasticstack, Grafana, Sentry ...
+- Tests de charges
+- Outils de dev: Lighthouse ...
 
 
-## Plan de marquage / Analytics
-- Intérets
-- Quelques outils : Google analytics, tagcommander etc ..
-    - Utilité vs problématique de vie privée
-- Intégration dans une application React
+## Analytics, outils et respect de la confidentialité
+- Outils : Google analytics, Contentsquare ...
 - RGPD
 - Consentement
 - Cookie
 
 
 ## A/B testing
-- Intérêt
+<img class="r-stretch" src="data/img/abtesting.png" />
 
 
 ## Feature flipping
-- Intérêt
-- Limites: ne pas oublier de décommissionner 
+<img class="r-stretch" src="data/img/featureFlag.jpeg" />
 
+Note:
+https://maif.github.io/izanami/
+https://maif.github.io/
+
+
+
+# The end
 <!-- prettier-ignore-end -->
