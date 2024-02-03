@@ -20,6 +20,6 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    "srcTmp"
   ]
 }
