@@ -73,20 +73,21 @@ const Todo = ({ completed,deleteTask, editTask, id, name, toggleTaskCompleted } 
         </label>
       </div>
       <div className="btn-group">
-        <button
+        <div
           className="btn"
           onClick={() => setEditing(true)}
           ref={editButtonRef}
         >
           Edit <span className="visually-hidden">{name}</span>
-        </button>
-        <button
-          tabIndex={0}
+        </div>
+        <div
+          tabIndex="0"
+          type="button"
           className="btn btn__danger"
           onClick={() => deleteTask(id)}
         >
           Delete <span className="visually-hidden">{name}</span>
-        </button>
+        </div>
       </div>
     </div>
   );
