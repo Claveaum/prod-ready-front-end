@@ -5,18 +5,19 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 import {configDefaults} from "vitest/config";
 
 // https://vitejs.dev/config/
+const folder: string = 'src';
 export default defineConfig({
   plugins: [react(), tsconfigPaths()],
   test: {
     globals: true,
     environment : 'jsdom',
-    setupFiles : 'src/setupTests.ts',
+    setupFiles : `${folder}/setupTests.ts`,
     coverage: {
       provider: "v8",
       enabled: true,
       reporter: ['text', 'html', 'lcov'],
-      include: ["src/*"],
-      exclude: [...configDefaults.exclude, "src/main.tsx","src/setupTests.ts", "**/**.d.ts**"],
+      include: [`${folder}/*`],
+      exclude: [...configDefaults.exclude, `${folder}/main.tsx`,`${folder}/setupTests.ts`, "**/**.d.ts**"],
       extension: ["ts","tsx"]
     },
     outputFile: 'reports/test-report.xml',
