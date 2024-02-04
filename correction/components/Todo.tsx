@@ -47,10 +47,10 @@ const Todo = ({ completed,deleteTask, editTask, id, name, toggleTaskCompleted } 
         />
       </div>
       <div className="btn-group">
-        <div className="btn todo-cancel" onClick={() => setEditing(false)}>
+        <button type="button" className="btn todo-cancel" onClick={() => setEditing(false)}>
           Cancel
           <span className="visually-hidden">renaming {name}</span>
-        </div>
+        </button>
         <button type="submit" className="btn btn__primary todo-edit">
           Save
           <span className="visually-hidden">new name for {name}</span>
@@ -73,21 +73,22 @@ const Todo = ({ completed,deleteTask, editTask, id, name, toggleTaskCompleted } 
         </label>
       </div>
       <div className="btn-group">
-        <div
+        <button
+          type="button"
           className="btn"
           onClick={() => setEditing(true)}
           ref={editButtonRef}
         >
           Edit <span className="visually-hidden">{name}</span>
-        </div>
-        <div
+        </button>
+        <button
           tabIndex="0"
           type="button"
           className="btn btn__danger"
           onClick={() => deleteTask(id)}
         >
           Delete <span className="visually-hidden">{name}</span>
-        </div>
+        </button>
       </div>
     </div>
   );
