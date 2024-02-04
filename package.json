@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "vite",
-    "dev": "vite",
+    "correction": "vite --mode correction",
     "build": "tsc && vite build",
     "test": "vitest",
     "lint": "eslint prod-ready-front-end --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
@@ -20,6 +20,7 @@
     "@testing-library/jest-dom": "^6.4.1",
     "@testing-library/react": "^14.2.1",
     "@testing-library/user-event": "^14.5.2",
+    "@types/node": "^20.11.16",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@typescript-eslint/eslint-plugin": "^6.14.0",
