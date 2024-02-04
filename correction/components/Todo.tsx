@@ -82,7 +82,6 @@ const Todo = ({ completed,deleteTask, editTask, id, name, toggleTaskCompleted } 
           Edit <span className="visually-hidden">{name}</span>
         </button>
         <button
-          tabIndex="0"
           type="button"
           className="btn btn__danger"
           onClick={() => deleteTask(id)}
