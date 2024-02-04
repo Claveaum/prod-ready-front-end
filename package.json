@@ -6,9 +6,10 @@
   "type": "module",
   "scripts": {
     "start": "vite",
-    "correction": "vite --mode correction",
+    "start:correction": "vite --mode correction",
     "build": "tsc && vite build",
     "test": "vitest",
+    "test:correction": "vitest --mode correction",
     "lint": "eslint prod-ready-front-end --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },

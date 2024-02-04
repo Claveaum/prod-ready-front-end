@@ -23,6 +23,7 @@ export default({mode}) => {
       extension: ["ts", "tsx"]
     },
     outputFile: 'reports/test-report.xml',
-    exclude: [...configDefaults.exclude, '**/build/**', 'correction/*', "cours/*"],
+    includeSource:[`${folder}/*`],
+    exclude: [...configDefaults.exclude, '**/build/**', "cours/*"],
   }
 })}
