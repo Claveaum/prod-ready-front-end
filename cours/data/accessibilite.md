@@ -204,3 +204,5 @@ Toujours privilégier la balise à la définition par attribut :
 - [Microsoft Accessibility Insights](https://accessibilityinsights.io/info-examples/web/aria-roles/)
 - [RGAA (FR)](https://www.numerique.gouv.fr/publications/rgaa-accessibilite/)
 - [Liste de ressources](https://github.com/brunopulis/awesome-a11y)
+
+<!-- prettier-ignore-end -->
