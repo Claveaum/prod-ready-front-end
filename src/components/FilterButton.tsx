@@ -1,6 +1,10 @@
-import React from "react";
+type FilterButtonProps = {
+    isPressed: boolean,
+    name: string,
+    setFilter: (arg0: string) => void
+}
 
-const FilterButton = ({ isPressed, name, setFilter }) => {
+const FilterButton = ({ isPressed, name, setFilter } : FilterButtonProps) => {
   return (
     <button
       type="button"

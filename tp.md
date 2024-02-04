@@ -3,7 +3,7 @@
 ## Prise en main de l'application
 
 - Cloner le projet et lancer `npm i` puis `npm start`
-- Aller sur `http://localhost:3000`
+- Aller sur `http://localhost:5173`
 
 L'application est une simple todo list.
 
