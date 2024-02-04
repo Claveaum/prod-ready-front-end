@@ -1,20 +1,24 @@
-import React, { useState } from "react";
+import {ChangeEvent, FormEvent, useState} from "react";
 
-const Form = (props) => {
+type FormProps = {
+  addTask: (arg0: string) => void
+}
+
+const Form = ({ addTask } : FormProps) => {
   const [name, setName] = useState('');
 
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (!name.trim()) {
       return;
     }
-    props.addTask(name);
+    addTask(name);
     setName("");
   }
 
 
-  const handleChange = (e) => {
+  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     setName(e.target.value);
   }
 
