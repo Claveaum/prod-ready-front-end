@@ -144,7 +144,7 @@ Toujours privilégier la balise à la définition par attribut :
 - Ce label doit être lisible par des humains
 - Pas d’abréviation
 - Pas de jargon ou de vocabulaire trop spécifique
-- 1 à 3mots
+- 1 à 3 mots
 - La sémantique est portée par le rôle
 
 ```
