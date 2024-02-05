@@ -27,8 +27,8 @@ Essayer d'utiliser l'application uniquement avec le clavier.
 
 Afficher l'arbre d'accessibilité dans les DevTools du navigateur.
 
-1. Donner un nom accessible à l'élément ayant le rôle `form`. ([?](https://www.w3.org/TR/wai-aria-practices/#aria_lh_form))
-1. Lire [ici](https://www.w3.org/TR/wai-aria-practices/#button) l'introduction sur les différents types de boutons. Identifier dans l'interface les boutons pouvant être considérés comme des `toggle button`. Faire les modifications nécessaires.
+1. Donner un nom accessible à l'élément ayant le rôle `form`. ([?](https://www.w3.org/WAI/ARIA/apg/practices/names-and-descriptions/#naming_role_guidance))
+1. Lire [ici](https://www.w3.org/WAI/ARIA/apg/patterns/button/) l'introduction sur les différents types de boutons. Identifier dans l'interface les boutons pouvant être considérés comme des `toggle button`. Faire les modifications nécessaires.
 1. Les boutons All / Active / Completed manquent de contexte. Faire en sorte que le nom accessible de ces boutons soit plus précis pour donner du contexte aux utilisateurs. Par exemple `Show all tasks`.
 
 TIP:
@@ -47,13 +47,12 @@ Le but de ce TP est d'écrire des tests d'intégration au niveau de l'applicatio
 
 1. Lancer la commander `npm test --watch` dans la console pour lancer les tests. Le paramètre watch permet de relancer les tests à chaque fichier modifié.
 1. Dans le fichier `App.spec.js`, compléter les différents tests.
-1. Générer le rapport de couverture de tests avec la commande `npm test --coverage`. Ouvrir dans le navigateur le fichier généré `./coverage/lcov-report/index.html`.
 
 Pour toutes les sélections, privilégier les requêtes par rôle.
 
 Tips:
 
-- Pour sélectionner un noeud à partir de son rôle (où "button" est le **rôle** du composant et `name` le nom accessible du composant).
+- Pour sélectionner un nœud à partir de son rôle (où "button" est le **rôle** du composant et `name` le nom accessible du composant).
 
 ```js
 screen.getByRole("button", { name: "Nom du bouton" });
